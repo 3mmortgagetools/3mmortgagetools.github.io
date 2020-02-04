@@ -61,7 +61,12 @@ tr:nth-child(even){background-color: }
         background-color: black;
     }
   </style>
-	
+  <script>
+var myWindow;
+function openWin() {
+  myWindow = window.open(href="hst.html", "", "width=380, height=420");
+}
+</script>	
 </head>
 
 <body>
@@ -104,7 +109,7 @@ tr:nth-child(even){background-color: }
 
 <table id="table">
 <tr><td><center><p><a class="button secondary full" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQzO6jJjkzRAe_QGWXojjj0yOeWIWAxHKp26PNydEQBuhh-RCwjieibKmYiMSX2nhu7ZPqruJfHA7hf/pubhtml" target="_blank"></i>DEALS TRACKING </a></p></center></td>
-<td><center><p><a class="button secondary full" href="hst.html" target="_blank"></i>HST CALCULATOR</a></p></center></td>
+<td><center><p><a onclick="openWin()" class="button secondary full" href="hst.html" target="_blank"></i>HST CALCULATOR</a></p></center></td>
 <td><center><p><a class="button secondary full" href="brokering.html" target="_blank"></i>STUDY </a></p></center></td></tr>
 
 </table>
